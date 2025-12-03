@@ -7,7 +7,7 @@ class Solution {
      */
 
 function twoSum($nums, $target) {
-    $seen = []; 
+    $seen = []; //tes
 
     foreach ($nums as $i => $num) {
         $complement = $target - $num;
