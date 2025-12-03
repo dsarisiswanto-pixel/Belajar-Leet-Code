@@ -53,6 +53,7 @@ class Solution {
             $node = $node->next;
             $k--;
         }
+        
         return $node;
     }
 }
