@@ -8,7 +8,7 @@ class Solution {
      $s = ltrim($s);
 
      if($s === "") return 0;
-     
+
 
      $i = 0;
      $sign = 1;
@@ -22,7 +22,7 @@ class Solution {
      while ($i < strlen($s) && ctype_digit($s[$i])) {
             $digit = intval($s[$i]);
 
-            // Check overflow before adding
+
             if ($result > (2147483647 - $digit) / 10) {
                 return $sign == 1 ? 2147483647 : -2147483648;  
             }
