@@ -8,7 +8,7 @@ class Solution {
     function findMedianSortedArrays($nums1, $nums2) {
         $merged = array_merge($nums1, $nums2);
 
-        sort($merged);
+        sort($merged);//
         $n = count($merged);
         
         if ($n % 2 == 1){
