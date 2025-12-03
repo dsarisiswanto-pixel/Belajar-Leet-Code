@@ -23,7 +23,7 @@ class Solution {
                     $right--;
                 } elseif ($sum < 0) {
                     $left++;
-                } else { // $sum > 0
+                } else { 
                     $right--;
                 }
             } 
