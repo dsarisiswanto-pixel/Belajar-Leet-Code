@@ -20,7 +20,7 @@ class Solution {
             4 => "IV",
             1 => "I"
         ];
-        $result = "" ;
+        $result = "";
 
         foreach ($values as $value => $symbol) {
             while ($num >= $value) {
