@@ -24,7 +24,7 @@ class Solution {
                     $dp[$i][$j] = $dp[$i - 1] [$j - 1];
                 }
                 elseif ($p[$j - 1] == '*'){
-                    $dp[$i][$j] = $dp[$i][$j - 2] ;
+                    $dp[$i][$j] = $dp[$i][$j - 2];
                     if ($p[$j - 2] == $s[$i - 1] || $p[$j - 2] == '.'){
                         $dp[$i][$j] = $dp[$i][$j] || $dp[$i - 1][$j];
                     }
