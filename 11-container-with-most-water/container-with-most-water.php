@@ -17,7 +17,7 @@ class Solution {
                 $l++;
             }
             else {
-                $r--;
+                $r-- ;
             }
         }
         return $max;
