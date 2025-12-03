@@ -43,7 +43,7 @@ class Solution {
                 } else {
                     $window = [];
                     $count = 0;
-                    $left = $j + $wordLen;
+                    $left = $j + $wordLen ;
                 }
             }
         }
