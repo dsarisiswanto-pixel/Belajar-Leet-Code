@@ -1,8 +1,8 @@
 class Solution {
 
     /**
-     * @param Integer[] $nums
-     * @param Integer $val
+     * @param Integer[] 
+     * @param Integer 
      * @return Integer
      */
     function removeElement(&$nums, $val) {
