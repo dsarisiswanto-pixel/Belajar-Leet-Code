@@ -19,7 +19,7 @@ class Solution {
     function addTwoNumbers($l1, $l2) {
         $dummy = new ListNode(0);
         $current = $dummy;
-        $carry = 0;
+        $carry = 0;// tes
 
         while ($l1 !== null || $l2 !== null || $carry > 0) {
             $v1 = ($l1 !== null) ? $l1->val : 0;
