@@ -28,8 +28,8 @@ class Solution {
             $first = $first->next;
             $second = $second->next;
         }
-        
+
         $second->next = $second->next->next;
-        return $dummy->next;
+        return $dummy->next ;
     }
 }
