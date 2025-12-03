@@ -1,9 +1,9 @@
 class Solution {
 
     /**
-     * @param Integer[] $nums
-     * @param Integer $target
-     * @return Integer[][]
+     * @param Integer[]
+     * @param Integer []
+     * @return Integer[]
      */
     function fourSum($nums, $target) {
         sort($nums); 
