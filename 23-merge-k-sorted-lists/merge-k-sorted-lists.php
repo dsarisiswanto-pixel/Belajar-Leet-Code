@@ -12,7 +12,7 @@
 class Solution {
 
     /**
-     * @param ListNode[] $lists
+     * @param ListNode[]
      * @return ListNode
      */
     function mergeKLists($lists) {
